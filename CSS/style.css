@@ -1,0 +1,13 @@
+body{
+    display: grid;
+    grid-template-areas: 
+    "I I I I"
+    "II II II II"
+    "II II II II"
+    "III III III III";
+}
+
+.header{
+    grid-area: I;
+    width: 50%;
+}
