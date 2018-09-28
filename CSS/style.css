@@ -8,7 +8,10 @@ body{
     "II II II II"
     "III III III III";
 
+    grid-gap: 20px;
 }
+
+/* HEADING */
 
 .header{
     grid-area: I;
@@ -17,14 +20,17 @@ body{
 
 }
 
+/* BEGIN CONTENT */
 
 .content{
     grid-area: II;
 
 }
 
+/* OPENER */
+
 .open-parallax{
-    background: url(/IMAGES/laptop.jpeg) fixed center;
+    background: url(/IMAGES/headphones-laptop.jpg) fixed center;
     background-size: 100%;
 }
 
@@ -36,10 +42,44 @@ body{
     letter-spacing: 5px;
 }
 
+/* PROFILE */
+
 .profile{
-    background: url(/IMAGES/Ahkiem-profile.jpeg);
+    background: url(/IMAGES/Ahkiem-profile.jpeg) fixed center no-repeat;
+    background-size: 65%;
 }
 
 .profileStory{
+    padding: 350px;
     text-align: center;
+    color: white;
+    font-size: 25px;
 }
+
+/* EXPERIENCE */
+
+.experience{
+    background: url(/IMAGES/laptop-backdrop.jpeg) fixed center;
+    background-size: 100%;
+}
+
+.exp{
+    padding: 300px;
+    font-size: 25px;
+    text-align: top;
+    margin-left: 200px;
+    color: white;
+}
+
+.projects{
+    background: url(/IMAGES/headphones-worktable.jpg) fixed center no-repeat;
+    background-size: 100%;
+}
+
+.projectTxt{
+    padding: 400px;
+    color: red;
+    font-size: 30px;
+}
+
+
