@@ -1,13 +1,45 @@
+/* GLOBAL */
 body{
     display: grid;
+    /* grid-template-columns:  */
     grid-template-areas: 
     "I I I I"
     "II II II II"
     "II II II II"
     "III III III III";
+
 }
 
 .header{
     grid-area: I;
     width: 50%;
+    background-color: blueviolet;
+
+}
+
+
+.content{
+    grid-area: II;
+
+}
+
+.open-parallax{
+    background: url(/IMAGES/laptop.jpeg) fixed center;
+    background-size: 100%;
+}
+
+.openText{
+    padding: 200px;
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    letter-spacing: 5px;
+}
+
+.profile{
+    background: url(/IMAGES/Ahkiem-profile.jpeg);
+}
+
+.profileStory{
+    text-align: center;
 }
