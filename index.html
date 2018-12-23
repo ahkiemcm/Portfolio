@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,79 +10,85 @@
 </head>
 
 
-<body>
-<div id="navi" class="navigation">
-    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-    <a href="#">Who am I?</a>
-    <a href="#">Personal Story</a>
-    <a href="#">Experience</a>
-    <a href="#">Personal Projects</a>
-</div> <!--Navigation should be a hidden side bar-->
-
-<div class="template header">
-    <h1>WELCOME</h1>
-    <!--Throw a banner of some sort in here, not sure yet-->
-</div>
-
-<div class="template content">
-
-
-<a id="opener">
-  <div class='open-parallax'>
-
-    <div class="openText">
-    <h3>I AM</h3>
-    <h1>AHKIEM CRENSHAW</h1>
-    <h3>AND I AM A</h3>
-    <h2>JUNIOR WEB DEVELOPER</h2>
+<body id='all'>
+    <div id="navi" class="navigation">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <a href="#">Who am I?</a>
+        <a href="#">Personal Story</a>
+        <a href="#">Experience</a>
+        <a href="#">Personal Projects</a>
     </div>
-  </div>
-</a>
+    <!--Navigation should be a hidden side bar-->
 
-<a id="profile">
-  <div class="profile">
-      <div class="profileStory">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-          Accusantium optio reiciendis quos qui pariatur, 
-          autem corrupti officia molestiae maxime corporis commodi veritatis rem ex architecto nobis.
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptate quos inventore, 
-          rerum maxime facere culpa dolorum quaerat error eveniet reiciendis autem 
-          dignissimos, illo commodi! 
-          Nobis obcaecati minus enim impedit eius!
-      </div>
-  </div>
-</a>
+    <span onclick="openNav()">☰</span>
 
-<a id="exp">
-  <div class="experience">
-    <div class="exp">
-        <h3>Proficient use of:</h3>
-<!--We want images of our programming languages here, we can use grid to format-->
+
+    <div class="template header">
+        <h1>WELCOME TO MY PORTFOLIO</h1>
+        <!--Throw a banner of some sort in here, not sure yet-->
     </div>
-  </div>
-</a>
+
+    <div class="template content">
 
 
-<a id="projects">
-  <div class="projects">
-      <div class="projectTxt">
-            <p>Here are some projects:</p>
+        <a id="opener">
+            <div class='open-parallax'>
+
+                <div class="openText">
+                    <h3>I AM</h3>
+                    <h1>AHKIEM CRENSHAW</h1>
+                    <h3>AND I AM A</h3>
+                    <h2>JUNIOR SOFTWARE DEVELOPER</h2>
+                </div>
+            </div>
+        </a>
+
+        <a id="profile">
+            <div class="profile">
+                <div class="profileStory">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Accusantium optio reiciendis quos qui pariatur,
+                    autem corrupti officia molestiae maxime corporis commodi veritatis rem ex architecto nobis.
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptate quos inventore,
+                    rerum maxime facere culpa dolorum quaerat error eveniet reiciendis autem
+                    dignissimos, illo commodi!
+                    Nobis obcaecati minus enim impedit eius!
+                </div>
+            </div>
+        </a>
+
+        <a id="exp">
+            <div class="experience">
+                <div class="exp">
+                    <h3>Proficient use of:</h3>
+                    <!--We want images of our programming languages here, we can use grid to format-->
+                </div>
+            </div>
+        </a>
 
 
+        <a id="projects">
+            <div class="projects">
+                <div class="projectTxt">
+                    <p>Here are some projects:</p>
+
+
+                </div>
+            </div>
+        </a>
+
+
+        <!--This is where all your info will go-->
     </div>
-  </div>
-</a>
-
-
-    <!--This is where all your info will go-->
-</div> 
 
 
 
-<div class="template footer">
-    Copyright &copy; 2018
-<!--Social media links and a copyright stamp-->    
-</div> 
+    <div class="template footer">
+        Copyright &copy; 2018
+        <!--Social media links and a copyright stamp-->
+    </div>
 
+    <script src="app.js"></script>
 </body>
+
 </html>
