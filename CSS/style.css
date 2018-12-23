@@ -24,6 +24,12 @@ span {
     font-size: 40px;
 }
 
+span:hover {
+    transition: .75s;
+    font-size: 50px;
+    color: gold;
+}
+
 .navigation {
     height: 100%;
     width: 0;
@@ -35,6 +41,20 @@ span {
     overflow-x: hidden;
     transition: 0.5s;
     padding-top: 60px;
+}
+
+.navigation>a {
+    padding: 20px;
+    text-decoration: none;
+    font-size: 25px;
+    color: black;
+    display: block;
+    transition: 0.3s;
+}
+
+.navigation>a:hover {
+    transition: 1.25s;
+    color: gold;
 }
 
 /* BEGIN CONTENT */
@@ -96,4 +116,15 @@ span {
     padding: 400px;
     color: red;
     font-size: 30px;
+}
+
+.footer {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 30px;
+}
+
+.footer:hover {
+    transition: 1.25s;
+    color: rgb(255, 47, 47);
+    font: bolder;
 }
