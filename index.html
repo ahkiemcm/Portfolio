@@ -13,10 +13,10 @@
 <body id='all'>
     <div id="navi" class="navigation">
         <a href="javascript:void(0)" class="closebtn" onclick="closeNav()" font-size='20px'>&times;</a>
-        <a href="#">Top</a>
-        <a href="#">Personal Story</a>
-        <a href="#">Experience</a>
-        <a href="#">Personal Projects</a>
+        <a href="#opener">Top</a>
+        <a href="#profile">Personal Story</a>
+        <a href="#exp">Experience</a>
+        <a href="#projects">Personal Projects</a>
     </div>
     <!--Navigation should be a hidden side bar-->
 
@@ -31,7 +31,7 @@
     <div class="template content">
 
 
-        <a id="opener">
+        <a name="opener">
             <div class='open-parallax'>
 
                 <div class="openText">
@@ -43,7 +43,7 @@
             </div>
         </a>
 
-        <a id="profile">
+        <a name="profile">
             <div class="profile">
                 <div class="profileStory">
                     I quest to make an impact by spreading peace and positivity,
@@ -59,36 +59,44 @@
             </div>
         </a>
 
-        <a id="exp">
+        <a name="exp">
             <div class="experience">
                 <div class="exp">
                     <h3>Proficient use of:</h3>
                     <!--We want images of our programming languages here, we can use grid to format-->
-                    <ul>
-                        <li>HTML</li>
-                        <li>CSS</li>
-                        <li>JAVASCRIPT</li>
-                        <ul>
-                            <li>Node.js</li>
-                            <li>jQuery</li>
-                            <li>Express</li>
-                            <li>MongoDB</li>
-                        </ul>
-                        <li>REACT</li>
-                        <li>PYTHON</li>
-                        <ul>
-                            <li>Django</li>
-                        </ul>
-                    </ul>
+
+                    <img src="/IMAGES/HTML_Logo.png" alt="">
+                    <img src="/IMAGES/css-icon.png" alt="">
+                    <img src="/IMAGES/javascript_icon.png" alt="">
+
+                    <img src="/IMAGES/nodejs-icon.png" alt="">
+                    <img src="/IMAGES/jquery_icon.png" alt="">
+                    <img src="/IMAGES/expressjs-icon.png" alt="">
+                    <img src="/IMAGES/mongodb-icon.png" alt="">
+
+                    <img src="/IMAGES/react-icon.png" alt="">
+                    <img src="/IMAGES/python-icon.png" alt="">
+                    <img src="/IMAGES/django-icon.png" alt="">
+
+
+
                 </div>
             </div>
         </a>
 
 
-        <a id="projects">
+        <a name="projects">
             <div class="projects">
                 <div class="projectTxt">
                     <p>Here are some projects:</p>
+
+                    <a href="https://github.com/ahkiemcm/Hangman-X" class="projectLink">Hangman-X</a>
+                    <br />
+                    <a href="https://github.com/ahkiemcm/Self-Symmetry" class="projectLink">Self-Symmetry</a>
+                    <br />
+                    <a href="https://github.com/ahkiemcm/deckmaster" class="projectLink">-DeckMaster-</a>
+                    <!-- <br /> -->
+                    <!-- <a href="#" class="projectLink">SlaveFreeToday</a> -->
 
 
                 </div>

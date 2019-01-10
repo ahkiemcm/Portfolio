@@ -22,6 +22,7 @@ body {
 span {
     position: fixed;
     font-size: 40px;
+    color: silver;
 }
 
 span:hover {
@@ -82,7 +83,7 @@ span:hover {
 
 .profile {
     background: url(/IMAGES/headshot-of-x2.jpg) fixed center no-repeat;
-    background-size: 65%;
+    background-size: 65vw;
 }
 
 .profileStory {
@@ -96,26 +97,35 @@ span:hover {
 
 .experience {
     background: url(/IMAGES/laptop-backdrop.jpeg) fixed center;
-    background-size: 100%;
+    background-size: 100vw;
 }
 
 .exp {
-    padding: 300px;
-    font-size: 25px;
-    text-align: top;
-    margin-left: 200px;
+    display: block;
+    padding: 400px;
+    /* margin: 0px 150px 0px 150px; */
+    text-align: center;
     color: white;
+    background-color: rgba(20, 20, 20, 0.8)
 }
 
 .projects {
     background: url(/IMAGES/headphones-worktable.jpg) fixed center no-repeat;
-    background-size: 100%;
+    background-size: 100vw;
 }
 
 .projectTxt {
-    padding: 400px;
+    padding: 200px;
+    margin: 0px 300px 0px 200px;
     color: red;
+    text-align: center;
     font-size: 30px;
+    display: flex;
+    flex-flow: column;
+}
+
+.projectLink {
+    background-color: rgba(200, 200, 200, 0.8)
 }
 
 .footer {
