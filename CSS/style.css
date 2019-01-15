@@ -106,7 +106,8 @@ span:hover {
     /* margin: 0px 150px 0px 150px; */
     text-align: center;
     color: white;
-    background-color: rgba(20, 20, 20, 0.8)
+    background-color: rgba(20, 20, 20, 0.4);
+    border-radius: 50%;
 }
 
 .projects {
@@ -125,7 +126,8 @@ span:hover {
 }
 
 .projectLink {
-    background-color: rgba(200, 200, 200, 0.8)
+    background-color: rgba(200, 200, 200, 0.6);
+    border-radius: 50%;
 }
 
 .footer {
