@@ -6,6 +6,7 @@ body {
     grid-template-areas: "I I I I" "II II II II" "II II II II" "III III III III";
     grid-gap: 20px;
     background: linear-gradient(red, silver, black, red, silver);
+    font-family: 'Merienda', cursive;
 }
 
 /* HEADING */
