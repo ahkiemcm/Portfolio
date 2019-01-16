@@ -22,13 +22,13 @@ body {
 
 span {
     position: fixed;
-    font-size: 40px;
+    font-size: 4em;
     color: silver;
 }
 
 span:hover {
     transition: .75s;
-    font-size: 50px;
+    font-size: 6em;
     color: gold;
 }
 
