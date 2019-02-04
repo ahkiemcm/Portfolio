@@ -15,7 +15,7 @@ body {
     grid-area: I;
     width: 100vw;
     text-align: center;
-    font-family: cursive;
+    /* font-family: cursive; */
 }
 
 /* NAVBAR */
